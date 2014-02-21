@@ -9,10 +9,16 @@
         <title>Top-Ten IT Issues: 2014</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-         <link rel="stylesheet" href="styles/af51d862.bootstrap.css">
+         <!-- build:css styles/bootstrap.css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- endbuild -->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/a041cb9b.main.css">
-        <script src="scripts/vendor/d7100892.modernizr.js"></script>
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
 
     </head>
     <body>
@@ -59,10 +65,10 @@
                     <div class="key">
                         <svg width="210" height="30">
                             <text x="25" y="15" fill="black" font-size="12px">Selected</text>
-                            <rect x="0" y="0" width="20" height="20" stroke="white" stroke-width="1" fill="#75c0d8">
+                            <rect x="0" y="0" width="20" height="20" stroke="white" stroke-width="1" fill="#75c0d8"></rect>
 
                             <text x="125" y="15" fill="black" font-size="12px">Not selected</text>
-                            <rect x="100" y="0" width="20" height="20" stroke="#bce4ed" stroke-width="1" fill="white">
+                            <rect x="100" y="0" width="20" height="20" stroke="#bce4ed" stroke-width="1" fill="white"></rect>
                         </svg>
                     </div>
                 </div>
@@ -79,14 +85,20 @@
                 <div class="svg-content">
 
                 </div>
-                <img class="branding" src="images/934ca0cd.logo.png">
+                <img class="branding" src="images/logo.png">
             </div>
 
         </div>
 
 
-        <script src="scripts/bb218a37.vendor.js"></script>
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
-        <script data-main="scripts/d84ee632.main" src="bower_components/requirejs/require.js"></script>
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- endbuild -->
 </body>
 </html>
