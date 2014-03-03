@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width">
          <link rel="stylesheet" href="styles/af51d862.bootstrap.css">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/4c30064d.main.css">
+        <link rel="stylesheet" href="styles/ce7565ee.main.css">
         <script src="scripts/vendor/d7100892.modernizr.js"></script>
 
     </head>
@@ -30,8 +30,20 @@
 
                     <p class="explainer lead">The unfiltered list to the right depicts the overall rank order of the 2014 top-ten strategic technologies. The Carnegie classification, control, and FTE filters below can be used to customize the list to represent the top-ten technologies at a subset of institutions. For more information about the EDUCAUSE Top-Ten Strategic Technologies visit the <a href="http://www.educause.edu/library/resources/2014-top-ten-technologies">project hub.</a></p>
                 </div>
+                                    <div class="key">
+                        <svg width="380" height="30">
+                            <text x="25" y="15" fill="black" font-size="12px">Selected</text>
+                            <rect x="0" y="0" width="20" height="20" stroke="white" stroke-width="1" fill="#75c0d8"></rect>
+
+                            <text x="125" y="15" fill="black" font-size="12px">Not selected</text>
+                            <rect x="100" y="0" width="20" height="20" stroke="#bce4ed" stroke-width="1" fill="white"></rect>
+
+                            <text class="increase_key" x="250" y="15" fill="black" font-size="12px">Increase in importance</text>
+                            <rect class="increase_key" x="225" y="8" width="20" height="6" fill="#c4d676" stroke-width="0" fill="white"></rect>
+                        </svg>
+                    </div>
                 <div class="filter-panel">
-                    <h4>FILTERS</h4>
+                    <h4 class="filter-head">FILTERS</h4>
                     <h6 class="filter-label">Carnegie Class:</h6>
                     <div class="btn-group cc">
                       <button class="btn btn-default active filter-button btn-sm" data="1">AA</button>
@@ -56,18 +68,7 @@
                       <button class="btn btn-default active filter-button btn-sm" data="5">15,000+</button>
                       <button class="btn btn-default active filter-button btn-sm" data="0">Unknown</button>
                     </div>
-                    <div class="key">
-                        <svg width="380" height="30">
-                            <text x="25" y="15" fill="black" font-size="12px">Selected</text>
-                            <rect x="0" y="0" width="20" height="20" stroke="white" stroke-width="1" fill="#75c0d8"></rect>
 
-                            <text x="125" y="15" fill="black" font-size="12px">Not selected</text>
-                            <rect x="100" y="0" width="20" height="20" stroke="#bce4ed" stroke-width="1" fill="white"></rect>
-
-                            <text class="increase_key" x="250" y="15" fill="black" font-size="12px">Increase in importance</text>
-                            <rect class="increase_key" x="225" y="8" width="20" height="6" fill="#c4d676" stroke-width="0" fill="white"></rect>
-                        </svg>
-                    </div>
                 </div>
                 <div>
                   <button class="btn btn-default btn-md reset-btn">Reset</button>
